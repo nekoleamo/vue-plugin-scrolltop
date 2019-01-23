@@ -2,11 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import NekoUtil from './index.js'
+import VuePluginScrolltop from './index.js'
 
 Vue.config.productionTip = false
 
-Vue.use(NekoUtil)
+Vue.use(VuePluginScrolltop)
 
 /* eslint-disable no-new */
 new Vue({

@@ -1,4 +1,4 @@
-import ScrollTop from './packages/ScrollTop/index.js'
+import ScrollTop from './packages/ScrollTop'
 // ...如果还有的话继续添加
 
 const components = [
